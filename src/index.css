@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Formula";
+  src: url("fonts/Formula1-Regular.otf"), url("fonts/Formula1-Bold.otf");
+}
+
+body {
+  font-family: 'Formula' !important;
+}
+
 .logo {
   width: 100px;
   height: auto;
@@ -5,4 +14,8 @@
 
 .nav-main {
   background-color: #e10600;
+}
+
+.active {
+  font-weight: bold !important;
 }
