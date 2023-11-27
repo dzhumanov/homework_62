@@ -1,5 +1,7 @@
 import Toolbar from "./Components/Toolbar/Toolbar";
+import Drivers from "./Containers/Drivers/Drivers";
 import Home from "./Containers/Home/Home";
+import {Route, Routes} from "react-router-dom";
 
 function App() {
   return (
@@ -8,7 +10,14 @@ function App() {
         <Toolbar/>
       </header>
       <main className="container">
-        <Home/>
+        <Routes>
+          <Route path='/' element={(
+            <Home/>
+          )}/>
+          <Route path='/drivers' element={(
+            <Drivers/>
+          )} />
+        </Routes>
       </main>
     </>
   );
