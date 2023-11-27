@@ -1,7 +1,15 @@
+import Toolbar from "./Components/Toolbar/Toolbar";
+import Home from "./Containers/Home/Home";
+
 function App() {
   return (
     <>
-      <div></div>
+      <header>
+        <Toolbar/>
+      </header>
+      <main className="container">
+        <Home/>
+      </main>
     </>
   );
 }
