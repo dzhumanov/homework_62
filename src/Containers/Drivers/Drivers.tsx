@@ -1,6 +1,6 @@
 const Drivers = () => {
   return (
-    <div>
+    <div className="container">
       <h1>Drivers:</h1>
       <p>
         Formula 1 participants, commonly referred to as "drivers," are elite
@@ -30,7 +30,7 @@ const Drivers = () => {
       </p>
       <img
         src="https://www.total-motorsport.com/wp-content/uploads/2022/10/F1-2023-drivers-1024x576.jpeg"
-        alt=""
+        alt="" className="d-block mx-auto"
       />
     </div>
   );
