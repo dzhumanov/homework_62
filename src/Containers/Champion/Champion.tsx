@@ -7,7 +7,7 @@ const Champion = () => {
         src="https://cdn.racingnews365.com/2023/Verstappen/_1125x633_crop_center-center_85_none/XPB_1232299_HiRes.jpg?v=1693585040" className="w-50"
         alt=""
       />
-      <p>
+      <p className="mt-3 fs-5">
         Max Verstappen is a Dutch Formula 1 racing driver. Born on September 30,
         1997, he made his debut in F1 with the Scuderia Toro Rosso team in 2015
         at the age of 17, becoming the youngest driver to compete in the sport

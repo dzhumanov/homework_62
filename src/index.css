@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Formula' !important;
+  font-family: "Formula" !important;
 }
 
 .logo {
@@ -18,4 +18,21 @@ body {
 
 .active {
   font-weight: bold !important;
+  text-decoration: underline !important;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
 }

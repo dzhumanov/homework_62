@@ -2,7 +2,7 @@ const Drivers = () => {
   return (
     <div className="container">
       <h1 className="fs-1 fw-bold mt-4">Drivers:</h1>
-      <p>
+      <p className="mb-4">
         Formula 1 participants, commonly referred to as "drivers," are elite
         athletes who compete at the highest level of single-seater auto racing.
         These skilled individuals play a pivotal role in the excitement and
